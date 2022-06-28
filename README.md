@@ -1,5 +1,7 @@
 This Repository contains the POC based on the AZ-104 or Microsoft Certified: Azure Administrator Associate Certification's skills outline.
+
 Every Folder Covers one of the POC's of every skillset from the certification.
+
 The major skills outline consists of the following:
 Manage Azure identities and governance (15-20%)
 Implement and manage storage (15-20%)
