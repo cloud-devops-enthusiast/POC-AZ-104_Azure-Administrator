@@ -35,3 +35,9 @@ There are some Azure Active Directory concepts which you need to understand:
 Azure Active Directory (Azure AD) enables you to SSO to the devices, apps and services from anywhere by the IT Team which always look after to protect the corporate assets and look into the devices comply to meet the standards for security and compliance. Azure AD join is designed to provide access to the organizational apps and resources.
 
 AD Join has some benfits like: Single-Sign-On(SSO), Enterprise Compliant Roaming(This enables you sync the settings over all the devices under your organization), Access to Microsoft's Store(This enables you to choose the applications from the pre-selected by the organization), Windows Hello(For secure and convenient acess to devices), Restriction of Apps(There can be some apps which can be accessed by the devices who comply those complicance policy) and Seamless access to the on-premises resources(When the device has access to the on-premises domain controller)
+
+Until now you understood to Active Directory, now we will see how to get a device under the control of your Active Directory so we have two options:
+
+1. Registering: Adding any device to your active directory enables you to manage the device's identity. Azure AD device registration provides the device with an identity which is used to authenticate at the time of whenever user tries to sign-in to Azure AD. You can use this identity as a kind of switch to make it accessible or not by enabling or disabling the device.
+
+2. Joining: This process is kind of extension to the registering the device. The process of joining comes with an advantage which is able to make changes to the local state of the device. Changing the local state enables your users to sign-in to a device using an organizational work or school account instead of personal account.
