@@ -1,4 +1,4 @@
-** Create User Accounts **
+**Create User Accounts**
 
 There are total three ways by which Azure AD defines user's in three ways:
 
@@ -8,6 +8,6 @@ Directory-Synchronized Identities: These are the user's which exist in the on-pr
 
 Guest Users: These users exist outside of the Azure, For example account from another cloud providers or Microsoft account such as Xbox live account.
 
-** Manage User Accounts **
+**Manage User Accounts**
 
 
