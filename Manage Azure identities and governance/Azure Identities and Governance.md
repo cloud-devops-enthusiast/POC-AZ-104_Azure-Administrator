@@ -14,7 +14,17 @@ Guest Users: These users exist outside of the Azure, For example account from an
 
 Azure Portal is the place from where you can access all the microsoft azure resources and manage them. Azure portal can be accessed by using the [Azure Portal](https://portal.azure.com/)
 
-![Microsoft Azure Portal](https://github.com/cloud-devops-enthusiast/POC-AZ-104_Azure-Administrator/blob/01abad315632b0102d7f5727ba81f3b323c3234f/Manage%20Azure%20identities%20and%20governance/Images/Azure%20Portal.png "Azure Portal")
+![Microsoft Azure Portal](https://github.com/cloud-devops-enthusiast/POC-AZ-104_Azure-Administrator/blob/3d484431040be1afef6879da63432519bdab5bb6/Manage%20Azure%20identities%20and%20governance/Images/azure-portal.png "Azure Portal")
 
 You can add users using the above azure portal by accessing the user's option from the given options.
+
+![Microsoft Azure User Portal](https://github.com/cloud-devops-enthusiast/POC-AZ-104_Azure-Administrator/blob/3d484431040be1afef6879da63432519bdab5bb6/Manage%20Azure%20identities%20and%20governance/Images/azure-portal-user.PNG "Azure User Portal")
+
+From here you can find multiple options like add, invite, edit or delete opertions on your user's.
+
+There are some things which we need to keep in mind while doing the same.
+
+1. The logged-in user must be Global administrator to manage user's.
+2. User profile is optional which can consists of picture, job or contact info.
+3. Deleted user's from azure can be restored in the duration of 30 days.
 
