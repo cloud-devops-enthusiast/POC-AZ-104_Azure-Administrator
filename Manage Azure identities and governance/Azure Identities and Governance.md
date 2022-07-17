@@ -10,4 +10,11 @@ Guest Users: These users exist outside of the Azure, For example account from an
 
 **Manage User Accounts**
 
+**Azure Portal**
+
+Azure Portal is the place from where you can access all the microsoft azure resources and manage them. Azure portal can be accessed by using the [Azure Portal](https://portal.azure.com/)
+
+![Microsoft Azure Portal](https://github.com/cloud-devops-enthusiast/POC-AZ-104_Azure-Administrator/blob/01abad315632b0102d7f5727ba81f3b323c3234f/Manage%20Azure%20identities%20and%20governance/Images/Azure%20Portal.png "Azure Portal")
+
+You can add users using the above azure portal by accessing the user's option from the given options.
 
