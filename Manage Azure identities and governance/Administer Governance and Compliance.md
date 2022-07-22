@@ -62,3 +62,58 @@ Apply Cost Savings
 * Budgets: Azure Budgets helps you to plan for and drive organizational accountability. This helps you to inform other's about their spending to proactively manage costs, and to monitor how spending progresses over time. 
 * Azure Pricing Calculator: The pricing calculator provides estimates in all areas of azure including compute, networking, storage, web and databases.
 ![Azure Pricing Calculator](https://github.com/cloud-devops-enthusiast/POC-AZ-104_Azure-Administrator/blob/d987b583920c5e1f1e7df46523e8e4e6b67f9390/Manage%20Azure%20identities%20and%20governance/Images/azure-pricing-calculator.PNG "Azure Pricing Calculator")
+
+*Azure Management Group*
+Azure Management group provide a level of scope over the subcriptions. You can use these Azure Management Groups for managing the subscriptions where these management act like the containers which can be used to further to apply the governance conditions to the management group.
+These management groups enable you to do the following:
+* Organizational alignment for your Azure subscriptions through custom hierarchies and grouping.
+* Targeting of policies and spend budgets across subscriptions and inheritance down the hierarchies.
+* Compliance and Cost reporting by the organization.
+
+You can create the management group by using the portal, Powershell or Azure CLI.
+
+![Azure Management Group](https://github.com/cloud-devops-enthusiast/POC-AZ-104_Azure-Administrator/blob/d7edbab10cd790f094e0e1c487d55955199357ca/Manage%20Azure%20identities%20and%20governance/Images/azure-management-group.PNG "Azure Management Group")
+
+The *Management group ID* is the idenfier which is unique and is used to submit the commands on the Management Group. This identifier is not editable after the creation of the same as it is used throughout the whole azure system to identify the group.
+The *Display Name* field is the name that is displayed within the Azure Portal.
+
+![Azure Management Group Creation](https://github.com/cloud-devops-enthusiast/POC-AZ-104_Azure-Administrator/blob/d7edbab10cd790f094e0e1c487d55955199357ca/Manage%20Azure%20identities%20and%20governance/Images/azure-create_management-group.PNG "Azure Management Group Creation")
+
+**Note** There can be nested management group, followed by the number of subscription in a single account.
+
+There are certain advanatges of Azure Policy in the areas of enforcement and compliance, scaling and remediation.
+1. *Enforcement and Compliance*: Managing the built-in policies or Making the custom policies for all the resource types.
+2. *Apply policies at scale*: Applying policies over a single management group while having control across your entire organization.
+3. *Remediation*: Real time remediation(Providing remedy or solution for that issue right in that time) and remediation on existing resources.
+
+There are certain use-cases for Azure policies:
+* Specify the resource types that your organization can deploy.
+* Specify a certain set of virtual machines SKU's that your organization can depploy.
+* Restrict the locations your organization can specify when deploying resources.
+* Enforce a required tag and it's values.
+* Audit if Azure Backup service is enabled for all virtual machines.
+
+**Implementing Azure Policies**
+1. Browse Policy Definitions: A policy definition expresses what to evaluate and what actions to take.
+2. Create Initiative Definitions: An initiative definition is a set of policy definitions to help track your Compliance state for a larger goal. Example, You can say that a branch office of a certain organization is compliant to some compliances or standards.
+3. Scope the initiative Definition: You can control the scope of the initiative definition to management group, Subscriptions or Resource Groups.
+4. View policy Evaluation Results: Once an initiative definition is assigned, you can evaluate the state of compliance for all your resources, individual resources, resource groups and subscriptions within scope can be exempted from having policy rules affect it.
+
+**Create Policy Definitions**
+There are many Built-in policy definitions from which you can choose. Policy definitions have a specific JSON format.
+* You can check what type of resources can be deployed.
+* Geo-Compliance lock which helps you to deploy resources from allowed locations only.
+
+![azure-policy-definitions](https://github.com/cloud-devops-enthusiast/POC-AZ-104_Azure-Administrator/blob/d7edbab10cd790f094e0e1c487d55955199357ca/Manage%20Azure%20identities%20and%20governance/Images/azure-policy-definitions.PNG "Azure policy definition")
+
+
+**Create Initiative Definitions**
+This definition includes one or more policies, whereas there will be a pick-list to make a selection.
+The scope of the initiative definition determines what resources or grouping of resources the policy assignment gets enforced on.
+
+![azure-policy-scope_of_initiative-definition](https://github.com/cloud-devops-enthusiast/POC-AZ-104_Azure-Administrator/blob/d7edbab10cd790f094e0e1c487d55955199357ca/Manage%20Azure%20identities%20and%20governance/Images/azure-policy-scope_of_initiative-definition.PNG "Azure policy scope of initiative definition")
+
+![azure-policy-compliance](https://github.com/cloud-devops-enthusiast/POC-AZ-104_Azure-Administrator/blob/d7edbab10cd790f094e0e1c487d55955199357ca/Manage%20Azure%20identities%20and%20governance/Images/azure-policy-compliance.PNG "Azure Policy compliance")
+*Note*: Policy evaluation occurs about once an hour.
+
+ 
