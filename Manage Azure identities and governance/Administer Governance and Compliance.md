@@ -115,5 +115,5 @@ The scope of the initiative definition determines what resources or grouping of 
 
 ![azure-policy-compliance](https://github.com/cloud-devops-enthusiast/POC-AZ-104_Azure-Administrator/blob/d7edbab10cd790f094e0e1c487d55955199357ca/Manage%20Azure%20identities%20and%20governance/Images/azure-policy-compliance.PNG "Azure Policy compliance")
 *Note*: Policy evaluation occurs about once an hour.
-
+ 
  
