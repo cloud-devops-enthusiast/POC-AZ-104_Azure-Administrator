@@ -4,7 +4,7 @@
 
 This Repository contains the POC based on the AZ-104 or Microsoft Certified: Azure Administrator Associate Certification's skills outline.
 
-Every Folder Covers one of the POC's of every skillset from the certification.
+Every Folder Covers one of the POC's of every skillset from the certification, If you want you can prefer changes to the POC feel free to create a pull request.
 
 The major skills outline consists of the following:
 
